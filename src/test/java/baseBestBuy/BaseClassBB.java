@@ -22,6 +22,7 @@ public class BaseClassBB extends UtilsBB {
 		extent.attachReporter(reporter);
 	}
 	
+	
 	@BeforeClass
 	public void testDetails() {
 		test = extent.createTest(testName, testDescription);
